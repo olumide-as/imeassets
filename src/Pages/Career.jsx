@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Hero } from "../Components";
+import emailjs from '@emailjs/browser';
 
 const Career = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_dniddch', 'career_form', form.current, 'XBXII6uwFiuw6DuX7')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+    };
+
   return (
     <div>
       <Hero
@@ -65,7 +80,7 @@ const Career = () => {
         </div>
 
         <div className="max-w-xl mb-10 md:mx-auto lg:max-w-2xl md:mb-12">
-        <form onSubmit={(e) => e.preventDefault()} className="space-y-5 slide-in-right">
+        <form ref={form} onSubmit={sendEmail} className="space-y-5 slide-in-right">
                 <div>
                   <label className="font-medium">Full name</label>
                   <input
@@ -98,6 +113,7 @@ const Career = () => {
                     className="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-orange-600 shadow-sm rounded-lg"
                   />
                 </div>
+                <div class="g-recaptcha" data-sitekey="6Ldai7wUAAAAAEOonqpjKm8AaN9GBIL8DC5nmG9e"></div>
                 <button className="w-full px-4 py-2 text-white font-medium bg-orange-600 hover:bg-orange-500 active:bg-orange-600 rounded-lg duration-150">
                   Submit
                 </button>

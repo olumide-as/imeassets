@@ -1,9 +1,84 @@
 import React from "react";
+import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
+
+const lagos = "https://res.cloudinary.com/dz2fc3ioz/image/upload/v1686683523/imeassets/slider/lightup_lagos_project_ouopm2_rjgbfk.jpg";
+const edo = "https://res.cloudinary.com/dz2fc3ioz/image/upload/v1686683523/imeassets/slider/DSC_5612-scaled_dzh5gi_vwd53q.jp  g";
+const craterRock = "https://i.imgur.com/8DYumaY.jpg";
+const ipp = "https://res.cloudinary.com/dz2fc3ioz/image/upload/v1686683524/imeassets/slider/independeng_power_project_i7jn0o_kicjqx.jpg";
 
 const Home = () => {
   return (
     <div>
-      <section className=" reveal py-28">
+      <section className=" py-28">
+
+      <HeroSlider
+      height={"100vh"}
+      autoplay
+      controller={{
+        initialSlide: 1,
+        slidingDuration: 500,
+        slidingDelay: 100,
+        onSliding: (nextSlide) =>
+          console.debug("onSliding(nextSlide): ", nextSlide),
+        onBeforeSliding: (previousSlide, nextSlide) =>
+          console.debug(
+            "onBeforeSliding(previousSlide, nextSlide): ",
+            previousSlide,
+            nextSlide
+          ),
+        onAfterSliding: (nextSlide) =>
+          console.debug("onAfterSliding(nextSlide): ", nextSlide)
+      }}
+    >
+      <Overlay>
+        <div className="text-white flex justify-center items-center flex-col w-full h-full m-0 p-0">
+          <h2 className=" mx-auto p-0 w-80 text-left text-7xl font-bold">Revolutionising Infrastructure Management</h2>
+          <p className=" mx-auto w-80 p-0  ">
+          Technology-driven asset management,  digitalisation, capacity optimisation and resource forecasting.
+          </p>
+        </div>
+      </Overlay>
+
+
+      <Slide
+        shouldRenderMask
+        label="Giau Pass - Italy"
+        background={{
+          backgroundImageSrc: ipp
+        }}
+        style={{
+          backgroundBlendMode: "luminosity",
+          backgroundColor: "black"
+        }}
+      />
+
+      <Slide
+        shouldRenderMask
+        label="Light Up Lagos"
+        background={{
+          backgroundImageSrc: lagos
+        }}
+      />
+
+      <Slide
+        shouldRenderMask
+        label="Light Up Edo"
+        background={{
+          backgroundImageSrc: edo
+        }}
+      />
+
+      <Slide
+        shouldRenderMask
+        label="Crater Rock, OR - United States"
+        background={{
+          backgroundImageSrc: craterRock
+        }}
+      />
+
+      <MenuNav />
+    </HeroSlider>
+
         <div className="max-w-screen-xl mx-auto text-gray-600 gap-x-12 items-center justify-between overflow-hidden md:flex md:px-8">
           <div className="flex-none space-y-5 px-4 sm:max-w-lg md:px-0 lg:max-w-xl">
             <h1 className="text-sm text-indigo-600 font-medium">

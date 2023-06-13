@@ -419,7 +419,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="fixed w-screen z-20 drop-shadow-md">
+    <div className="fixed w-screen z-20">
       <nav
         className={`relative z-10 bg-white w-full  md:static md:text-sm md:border-none ${
           state ? "shadow-lg rounded-b-xl md:shadow-none" : ""
@@ -543,10 +543,8 @@ const Navbar = () => {
                                       href={navItem.path}
                                       className="flex gap-3 items-center"
                                     >
-                                      <div className="w-12 h-12 rounded-full bg-indigo-50 text-orange-700 flex items-center justify-center duration-150 group-hover:bg-orange-700 group-hover:text-white md:w-14 md:h-14">
-                                        {navItem.icon}
-                                      </div>
-                                      <div>
+                                      
+                                      <div className="border-b-2">
                                         <span className="text-gray-800 duration-200 group-hover:text-orange-700 text-sm font-medium md:text-base">
                                           {navItem.title}
                                         </span>

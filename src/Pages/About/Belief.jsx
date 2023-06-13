@@ -78,7 +78,7 @@ const Belief = () => {
           <div>
             <img
               className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-              src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1686682479/imeassets/team/f0a992c7-baef-4952-a287-11294d2b9ab0_diebut.jpg"
               alt=""
             />
           </div>
