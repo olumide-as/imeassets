@@ -34,8 +34,8 @@ const Home = () => {
         >
           <Overlay>
             <div className=" bg-blue-950/40 text-left text-white flex justify-center items-center flex-col w-full h-full m-0 p-0">
-              <div className="w-full md:w-3/4 p-8 text-focus-in">
-              <h1 className="border-l-8 border-orange-700 mx-auto text-5xl md:text-7xl font-semibold px-4 drop-shadow-lg">
+              <div className="w-full md:w-3/4 p-4 md:p-8 text-focus-in">
+              <h1 className=" border-l-4 md:border-l-8 border-orange-700 mx-auto text-4xl md:text-7xl font-semibold px-4 drop-shadow-lg">
                 Revolutionising Infrastructure Management
               </h1>
               <p className=" mx-auto py-4 drop-shadow-lg">
