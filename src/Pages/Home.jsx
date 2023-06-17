@@ -2,12 +2,12 @@ import React from "react";
 import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
 
 const lagos =
-  "https://res.cloudinary.com/dz2fc3ioz/image/upload/v1686683523/imeassets/slider/lightup_lagos_project_ouopm2_rjgbfk.jpg";
+  "https://res.cloudinary.com/dz2fc3ioz/image/upload/v1686982559/imeassets/slider/pexels-cameron-casey-1722183_obs4qr.jpg";
 const edo =
-  "https://res.cloudinary.com/dz2fc3ioz/image/upload/v1686683523/imeassets/slider/DSC_5612-scaled_dzh5gi_vwd53q.jpg";
-const craterRock = "https://i.imgur.com/8DYumaY.jpg";
+  "https://res.cloudinary.com/dz2fc3ioz/image/upload/v1686982559/imeassets/slider/pexels-jonnathas-luis-de-silva-816461_abca9v.jpg";
+const craterRock = "https://res.cloudinary.com/dz2fc3ioz/image/upload/v1686982559/imeassets/slider/pexels-sergio-souza-2309579_fpaanx.jpg";
 const ipp =
-  "https://res.cloudinary.com/dz2fc3ioz/image/upload/v1686683524/imeassets/slider/independeng_power_project_i7jn0o_kicjqx.jpg";
+  "https://res.cloudinary.com/dz2fc3ioz/image/upload/v1686982559/imeassets/slider/pexels-taryn-elliott-3889855_gkqhh5.jpg";
 
 const Home = () => {
   return (
