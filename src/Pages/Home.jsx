@@ -33,14 +33,16 @@ const Home = () => {
           }}
         >
           <Overlay>
-            <div className="text-white flex justify-center items-center flex-col w-full h-full m-0 p-0">
-              <h2 className=" mx-auto  w-80 text-left text-5xl font-bold">
+            <div className=" bg-blue-950/40 text-left text-white flex justify-center items-center flex-col w-full h-full m-0 p-0">
+              <div className="w-3/4 p-8">
+              <h1 className="border-l-8 border-orange-700 mx-auto text-7xl font-semibold px-4">
                 Revolutionising Infrastructure Management
-              </h2>
-              <p className=" mx-auto   w-80 py-4  ">
+              </h1>
+              <p className=" mx-auto py-4 ">
                 Technology-driven asset management, digitalisation, capacity
                 optimisation and resource forecasting.
               </p>
+              </div>
             </div>
           </Overlay>
 

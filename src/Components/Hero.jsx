@@ -15,7 +15,7 @@ const Hero2 = ({ bg, heroheading, herosubheading, text }) => {
         }}
       >
         <div className="  flip-in-hor-bottom max-w-screen-xl mx-auto  text-gray-600 gap-x-12 items-center justify-between overflow-hidden md:flex md:px-8 z-0 ">
-          <div className="  border-l-4  border-orange-600 p-8 bg-white bg-opacity-70 flex-none space-y-5   sm:max-w-lg  lg:max-w-xl">
+          <div className="  border-l-4  border-orange-600 p-8 bg-white/70 flex-none space-y-5   sm:max-w-lg  lg:max-w-xl">
             <h1 className="text-sm text-orange-600 font-medium">
               {heroheading}
             </h1>
