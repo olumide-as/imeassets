@@ -1,5 +1,108 @@
 import React from "react";
 import HeroSlider, { Overlay, Slide, MenuNav } from "hero-slider";
+import CardCarousel from "../Components/CardCarousel";
+
+
+const cards = [
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688324846/imeassets/services/pexels-alex-azabache-3214995_yqjcrh.jpg',
+    title: 'Architecture and Landscape',
+    description: 'Our architects employ interdisciplinary methods to create designs that balance aesthetic appeal with functional performance to meet clients need.',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688325025/imeassets/services/pexels-nataliya-vaitkevich-7172814_vrsi3p.jpg',
+    title: 'Assest and Integrity Management',
+    description: 'We provide holistic solutions to manage the integrity and unlock the full value of assets throughout their lifecycles.',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688325277/imeassets/services/pexels-pixabay-355948_mrk8pv.jpg',
+    title: 'Concept and Feasibility Studies',
+    description: 'Our team of engineers, economic and financial experts use the best tools and methodologies to investigate project sites and conduct studies.',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688325343/imeassets/services/pexels-jiyoung-kim-4513940_skymbl.jpg',
+    title: 'Construction Management',
+    description: 'We provide project management for the construction, demolition, extension, or alteration of public and residential infrastructure and buildings.',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688325396/imeassets/services/pexels-cytonn-photography-955389_rsst3f.jpg',
+    title: 'Contract Advisory',
+    description: '',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688325734/imeassets/services/pexels-lukas-590045_ihw8ox.jpg',
+    title: 'Development Management',
+    description: 'Our extensive local network and global reach enables us to assist you.    ',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688325821/imeassets/services/pexels-matej-716661_sq2zrk.jpg',
+    title: 'Engineering and Specialist Service',
+    description: 'Our team of highly skilled and experienced engineers bring years of experience from a diverse range of development types to deliver.    ',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688325939/imeassets/services/pexels-nataliya-vaitkevich-7173040_o9le48.jpg',
+    title: 'Facilities Management',
+    description: 'Our multidisciplinary team of facilities managers identify key governance areas and streamline processes to ensure functionality, efficiency, comfort and safety of assets.    ',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688325988/imeassets/services/pexels-nothing-ahead-7425340_iyn8d3.jpg',
+    title: 'Fire and Safety',
+    description: 'Our fire and safety consultancy service adopts advanced modelling and computational tools for future-proofing buildings against fire.    ',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688326122/imeassets/services/pexels-cottonbro-studio-5990265_a6kmcb.jpg',
+    title: 'Master Planning',
+    description: 'Our team of town planners collaborate with multidisciplinary teams to create high economic, social and environmental impact blueprints for communities.    ',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688326180/imeassets/services/pexels-picha-stock-3894378_tp9afy.jpg',
+    title: 'IME Capital',
+    description: 'We work with a consortium of development finance experts to help our clients source, structure and manage development project investments.    ',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688326427/imeassets/services/pexels-ketut-subiyanto-4559592_nb8yuf.jpg',
+    title: 'Managed Services',
+    description: 'We provide a one-stop solution to deliver convenience, efficiency and commercial value on your asset portfolios.    ',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688326505/imeassets/services/pexels-christina-morillo-1181615_j5djz1.jpg',
+    title: 'Project Management',
+    description: 'IME offers end-to-end project management solutions for a wide range of project types in various sectors.    ',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688326684/imeassets/services/pexels-nataliya-vaitkevich-7173046_usohkf.jpg',
+    title: 'Quantity Surveying and Cost Management',
+    description: 'We advise clients on contracts and valuations of project costing to meet budget requirement.    ',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688326791/imeassets/services/pexels-scott-webb-430208_hk2vtl.jpg',
+    title: 'Security Services and Solutions',
+    description: 'We provide integrated safety and security solutions to our clients at a reduced cost.    ',
+    link: "/#",
+  },
+  {
+    image: 'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688326845/imeassets/services/pexels-kostiantyn-stupak-599982_xqyx3v.jpg',
+    title: 'Smart City',
+    description: 'IME helps clients to implement a suite of integrated smart city solutions  that connect various physical devices, people and infrastructure to a digitalized network   ',
+    link: "/#",
+  },
+  // Add more card objects as needed
+];
+
 
 const lagos =
   "https://res.cloudinary.com/dz2fc3ioz/image/upload/v1686982559/imeassets/slider/pexels-cameron-casey-1722183_obs4qr.jpg";
@@ -85,6 +188,10 @@ const Home = () => {
           <MenuNav />
         </HeroSlider>
       </section>
+
+      <div className="p-5 md:p-10 ">
+      <CardCarousel cards={cards} />
+      </div>
 
       <div className="reveal px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
         <div className="grid gap-10 lg:grid-cols-2">
