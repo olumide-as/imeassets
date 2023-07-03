@@ -36,7 +36,7 @@ const App = () => {
     <div className="font-manrope">
       <BrowserRouter>
         <Navbar />
-        <Routes>
+        <Routes >
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/career" element={<Career />} />

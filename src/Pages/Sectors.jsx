@@ -11,7 +11,7 @@ const Sectors = () => {
         bg="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684930938/imeassets/pexels-jules-am%C3%A9-9272726_rvd04r.jpg"
       />
 
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"  style={{ backgroundImage: `url(${'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688418302/imeassets/bg-fade_m8abj0.svg'})`, backgroundSize: "cover", backgroundPosition: "center", }}>
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-orange-700 uppercase rounded-full bg-teal-accent-400">
@@ -128,7 +128,7 @@ const Sectors = () => {
           >
             <div className="flex flex-col h-full">
               <img
-                src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684791894/imeassets/pexels-photomix-company-518244_ufb7he.jpg"
+                src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688325939/imeassets/services/pexels-nataliya-vaitkevich-7173040_o9le48.jpg"
                 className="object-cover w-full h-48"
                 alt=""
               />
@@ -151,7 +151,7 @@ const Sectors = () => {
           >
             <div className="flex flex-col h-full">
               <img
-                src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684792070/imeassets/pexels-andrea-piacquadio-3846440_undawi.jpg"
+                src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688421684/imeassets/pexels-suntorn-somtong-1029243_dvqlok.jpg"
                 className="object-cover w-full h-48"
                 alt=""
               />
@@ -336,7 +336,7 @@ const Sectors = () => {
           <div>
             <img
               className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-              src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684827754/imeassets/pexels-fauxels-3183183_sqmbgb.jpg"
+              src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688326180/imeassets/services/pexels-picha-stock-3894378_tp9afy.jpg"
               alt=""
             />
           </div>

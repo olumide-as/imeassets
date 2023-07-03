@@ -8,10 +8,10 @@ const information = () => {
         heroheading="CORPORATE INFORMATION"
         herosubheading=" Unveiling the Essence"
         text="Discovering Our Corporate Information and Values."
-        bg="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684930938/imeassets/pexels-jules-am%C3%A9-9272726_rvd04r.jpg"
+        bg="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688422349/imeassets/pexels-nappy-936137_bilmth.jpg"
       />
 
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"  style={{ backgroundImage: `url(${'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688418302/imeassets/bg-fade_m8abj0.svg'})`, backgroundSize: "cover", backgroundPosition: "center", }}>
         <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
           <div>
             <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-orange-700 uppercase rounded-full bg-teal-accent-400">

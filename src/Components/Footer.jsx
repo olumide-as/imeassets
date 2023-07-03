@@ -6,8 +6,8 @@ const Footer = () => {
       label: "Company",
       items: [
         {
-          href: "../perspective",
-          name: "Perspective",
+          href: "../news",
+          name: "News and Events",
         },
         {
           href: "../sustainability",
@@ -15,7 +15,7 @@ const Footer = () => {
         },
 
         {
-          href: "../careers",
+          href: "../career",
           name: "Careers",
         },
       ],
@@ -61,7 +61,7 @@ const Footer = () => {
 
   return (
     <div>
-      <footer className="text-white bg-blue-950 px-4 py-24 max-w-screen-2xl mx-auto md:px-8">
+      <footer className="text-white bg-blue-950 px-4 pt-24 pb-12 max-w-screen-2xl mx-auto md:px-8">
         <div className="gap-6 justify-between md:flex">
           <div className="flex-1">
             <div className="max-w-xs">

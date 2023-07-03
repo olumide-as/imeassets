@@ -8,10 +8,10 @@ const Belief = () => {
         heroheading="OUR BELIEF"
         herosubheading=" Empowering a Better Tomorrow."
         text="Embracing Our Belief to Shape the Future of Facility Management."
-        bg="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684930938/imeassets/pexels-jules-am%C3%A9-9272726_rvd04r.jpg"
+        bg="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688422349/imeassets/pexels-nappy-936137_bilmth.jpg"
       />
 
-      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+      <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20"  style={{ backgroundImage: `url(${'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688418302/imeassets/bg-fade_m8abj0.svg'})`, backgroundSize: "cover", backgroundPosition: "center", }}>
         <div className="grid gap-12 row-gap-8 lg:grid-cols-2">
           <div className="flex flex-col justify-center">
             <div className="max-w-xl mb-6 ">

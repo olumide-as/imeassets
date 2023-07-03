@@ -105,7 +105,7 @@ const Contact = () => {
         bg="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684656453/imeassets/pexels-cottonbro-studio-5474294_dydqo0.jpg"
       />
 
-      <main className="py-14">
+      <main className="py-14" style={{ backgroundImage: `url(${'https://res.cloudinary.com/dz2fc3ioz/image/upload/v1688418302/imeassets/bg-fade_m8abj0.svg'})`, backgroundSize: "cover", backgroundPosition: "center", }}>
         <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
           <div className="max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none">
             <div className="max-w-lg space-y-3">
