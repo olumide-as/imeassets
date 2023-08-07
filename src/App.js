@@ -23,7 +23,10 @@ import {
   Post6,
   Post5,
   Post4,
-  Article1
+  Article1,
+  Lagos,
+  Edo,
+  Services
 } from "./Pages";
 import { Navbar, Footer } from "./Components";
 
@@ -57,6 +60,9 @@ const App = () => {
           <Route path="/news/LASTVEB-graduation-ceremony-2019" element={<Post5 />} />
           <Route path="/news/value-of-facility-management" element={<Post6 />} />
           <Route path="/articles/the-dichotomy-between-physical-and-human-infrastructure" element={<Article1 />} />
+          <Route path="/projects/light-up-lagos" element={<Lagos />} />
+          <Route path="/projects/light-up-edo" element={<Edo />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/*" element={<NoPage />} />
         </Routes>
         <Footer />

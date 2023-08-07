@@ -19,3 +19,6 @@ export {default as Post4} from './Perspective/News/Post4';
 export {default as Post5} from './Perspective/News/Post5';
 export {default as Post6} from './Perspective/News/Post6';
 export {default as Article1} from './Perspective/Articles/Article1';
+export {default as Edo} from './Projects/Edo';
+export {default as Lagos} from './Projects/Lagos';
+export {default as Services} from './Services';

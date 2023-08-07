@@ -75,7 +75,7 @@ const Team = () => {
             <div className="relative pb-56 mb-4 rounded shadow lg:pb-64">
               <img
                 className="absolute object-cover w-full h-full rounded"
-                src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1685024580/imeassets/team/osarume_sf5yol.jpg"
+                src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1691437166/imeassets/team/WhatsApp_Image_2023-07-19_at_09.11.31_ogavwi.jpg"
                 alt="Person"
               />
             </div>

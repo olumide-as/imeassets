@@ -101,7 +101,7 @@ const Navbar = () => {
       navs: [
         {
           title: "Architecture and Landscape",
-          path: "../architecture",
+          path: "../services/#architecture",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ const Navbar = () => {
         },
         {
           title: "Asset and Integrity Management",
-          path: "../asset",
+          path: "../services/#asset",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -129,7 +129,7 @@ const Navbar = () => {
         },
         {
           title: "Concept and Feasibility Studies",
-          path: "../feasibility",
+          path: "../services/#feasibility",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +143,7 @@ const Navbar = () => {
         },
         {
           title: "Construction Management",
-          path: "../construction",
+          path: "../services/#construction",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -157,7 +157,7 @@ const Navbar = () => {
         },
         {
           title: "Contract Advisory",
-          path: "../contract",
+          path: "../services/#contract",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -171,7 +171,7 @@ const Navbar = () => {
         },
         {
           title: "Development Management",
-          path: "../development",
+          path: "../services/#development",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +190,7 @@ const Navbar = () => {
       navs: [
         {
           title: "Engineering and Specialist Service",
-          path: "../engineering",
+          path: "../services/#engineering",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -204,7 +204,7 @@ const Navbar = () => {
         },
         {
           title: "Facilities Management",
-          path: "../facility",
+          path: "../services/#facility",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -218,7 +218,7 @@ const Navbar = () => {
         },
         {
           title: "Fire and Safety",
-          path: "../safety",
+          path: "../services/#safety",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -232,7 +232,7 @@ const Navbar = () => {
         },
         {
           title: "Master Planning",
-          path: "../planning",
+          path: "../services/#planning",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -246,7 +246,7 @@ const Navbar = () => {
         },
         {
           title: "IME Capital",
-          path: "../imecapital",
+          path: "../services/#imecapital",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -265,7 +265,7 @@ const Navbar = () => {
       navs: [
         {
           title: "Managed Services",
-          path: "managedservices",
+          path: "../services/#managedservices",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -279,7 +279,7 @@ const Navbar = () => {
         },
         {
           title: "Project Management",
-          path: "../projectmanagement",
+          path: "../services/#projectmanagement",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -293,7 +293,7 @@ const Navbar = () => {
         },
         {
           title: "Quantity Surveying and Cost Management",
-          path: "../qs",
+          path: "../services/#qs",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -307,7 +307,7 @@ const Navbar = () => {
         },
         {
           title: "Security Services and Solutions",
-          path: "../security",
+          path: "../services/#security",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -321,7 +321,7 @@ const Navbar = () => {
         },
         {
           title: "Smart City",
-          path: "../smartcity",
+          path: "../services/#smartcity",
           icon: (
             <svg
               xmlns="http://www.w3.org/2000/svg"

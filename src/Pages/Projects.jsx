@@ -62,7 +62,7 @@ const Projects = () => {
       <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
         <div className="grid gap-5 row-gap-5 mb-8 lg:grid-cols-3 sm:grid-cols-2">
           <a
-            href="/"
+            href="../projects"
             aria-label="View Item"
             className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
           >
@@ -86,7 +86,7 @@ const Projects = () => {
             </div>
           </a>
           <a
-            href="/"
+            href="../projects/light-up-lagos"
             aria-label="View Item"
             className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
           >
@@ -110,7 +110,7 @@ const Projects = () => {
             </div>
           </a>
           <a
-            href="/"
+            href="../projects/light-up-edo"
             aria-label="View Item"
             className="inline-block overflow-hidden duration-300 transform bg-white rounded shadow-sm hover:-translate-y-2"
           >
