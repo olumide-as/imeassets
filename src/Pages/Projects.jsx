@@ -7,7 +7,7 @@ const Projects = () => {
       <Hero
         heroheading="PROJECTS"
         herosubheading="Showcasing Our Expertise and Succes"
-        text="Explore our portfolio of remarkable facility management projects."
+        text="Explore our portfolio of remarkable Integrated Infrastructure Asset Management projects."
         bg="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684930730/imeassets/pexels-startup-stock-photos-7376_d59hdx.jpg"
       />
 

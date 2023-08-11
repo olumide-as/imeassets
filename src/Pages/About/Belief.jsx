@@ -21,7 +21,7 @@ const Belief = () => {
               <p className="text-base text-gray-700 md:text-lg">
                 At the core of our organization lies a steadfast belief in
                 driving positive change, fostering innovation, and making a
-                meaningful impact in the world of facility management.
+                meaningful impact in the world of Integrated Infrastructure Asset Management.
               </p>
             </div>
             <div className="grid gap-8 row-gap-8 sm:grid-cols-2">

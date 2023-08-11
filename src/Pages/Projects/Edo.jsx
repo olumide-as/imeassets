@@ -7,7 +7,7 @@ const Edo = () => {
       <Hero
         heroheading="PROJECTS"
         herosubheading="Light Up Edo"
-        text="Explore our portfolio of remarkable facility management projects."
+        text="Explore our portfolio of remarkable Integrated Infrastructure Asset Management projects."
         bg="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684828097/imeassets/DSC_5612-scaled_dzh5gi.jpg"
       />
 

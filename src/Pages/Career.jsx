@@ -59,7 +59,7 @@ const Career = () => {
               </svg>
               <span className="relative">Discover</span>
             </span>{" "}
-             exciting career opportunities that empower you to make a difference in the world of facility management. 
+             exciting career opportunities that empower you to make a difference in the world of Integrated Infrastructure Asset Management. 
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
             Our company keeps achieving new milestones in Africa’s

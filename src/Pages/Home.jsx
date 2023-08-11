@@ -204,7 +204,7 @@ const Home = () => {
                 </span>
               </h2>
               <p className="  md:text-lg">
-                We revolutionize facility management with advanced technologies,
+                We revolutionize Integrated Infrastructure Asset Management with advanced technologies,
                 sustainability, and collaborative solutions. Experience
                 unparalleled efficiency, optimized resource allocation, and
                 eco-friendly practices. Join us in shaping the future of
@@ -279,7 +279,7 @@ const Home = () => {
           Sustainable Solutions for Greener Facility Management
           </h5>
           <p className="mb-5 text-gray-800">
-             At IME, <span className="font-bold">Sustainability</span> is paramount. We integrate eco-friendly practices into every operation, from innovative strategies to cutting-edge tech. Our solutions, like energy efficiency and waste management, are tailored to your needs. Partner with us for a greener future in facility management.
+             At IME, <span className="font-bold">Sustainability</span> is paramount. We integrate eco-friendly practices into every operation, from innovative strategies to cutting-edge tech. Our solutions, like energy efficiency and waste management, are tailored to your needs. Partner with us for a greener future in Integrated Infrastructure Asset Management.
           </p>
           <div className="flex items-center">
             <a

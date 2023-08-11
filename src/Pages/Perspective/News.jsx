@@ -58,7 +58,7 @@ const News = () => {
             category="News and Events"
             date="2023"
             title="Value of Facility Management"
-            desc="Deji Williams, CEO, IME speaking on the value of facility management on the popular morning talk show, Your View with Morayo"
+            desc="Deji Williams, CEO, IME speaking on the value of Integrated Infrastructure Asset Management on the popular morning talk show, Your View with Morayo"
           />
         </div>
       </div>
