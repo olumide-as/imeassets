@@ -138,13 +138,13 @@ const Home = () => {
           <Overlay>
             <div className=" bg-blue-950/40 text-left text-white flex justify-center items-center flex-col w-full h-full m-0 p-0">
               <div className="w-full md:w-3/4 p-4 md:p-8 text-focus-in">
-              <h1 className=" border-l-4 md:border-l-8 border-orange-700 mx-auto text-4xl md:text-7xl font-semibold px-4">
-                Revolutionising Infrastructure Management
-              </h1>
-              <p className=" mx-auto py-4">
-                Technology-driven asset management, digitalisation, capacity
-                optimisation and resource forecasting.
-              </p>
+                <h1 className=" border-l-4 md:border-l-8 border-orange-700 mx-auto text-4xl md:text-7xl font-semibold px-4">
+                  Revolutionising Infrastructure Management
+                </h1>
+                <p className=" mx-auto py-4">
+                  Technology-driven asset management, digitalisation, capacity
+                  optimisation and resource forecasting.
+                </p>
               </div>
             </div>
           </Overlay>
@@ -190,7 +190,7 @@ const Home = () => {
       </section>
 
       <div className="p-5 md:p-10 ">
-      <CardCarousel cards={cards} />
+        <CardCarousel cards={cards} />
       </div>
 
       <div className="reveal px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
@@ -254,52 +254,52 @@ const Home = () => {
 
 
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
-        <div className="relative lg:w-1/2">
-          <img
-            src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-            alt=""
-            className="object-cover w-full lg:absolute h-80 lg:h-full"
-          />
-          <svg
-            className="absolute top-0 right-0 hidden h-full text-white lg:inline-block"
-            viewBox="0 0 20 104"
-            fill="currentColor"
-          >
-            <polygon points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104" />
-          </svg>
-        </div>
-        <div className="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
-          <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-orange-700 uppercase rounded-full bg-teal-accent-400">
-              FOR A BETTER TOMORROW, TODAY
-            </p>
-          </div>
-          <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl text-blue-950">
-          Sustainable Solutions for Greener Facility Management
-          </h5>
-          <p className="mb-5 text-gray-800">
-             At IME, <span className="font-bold">Sustainability</span> is paramount. We integrate eco-friendly practices into every operation, from innovative strategies to cutting-edge tech. Our solutions, like energy efficiency and waste management, are tailored to your needs. Partner with us for a greener future in Integrated Infrastructure Asset Management.
-          </p>
-          <div className="flex items-center">
-            <a
-              href="../sustainability"
-              aria-label=""
-              className="inline-flex items-center font-semibold transition-colors duration-200  text-orange-700 hover:text-orange-800"
+        <div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
+          <div className="relative lg:w-1/2">
+            <img
+              src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt=""
+              className="object-cover w-full lg:absolute h-80 lg:h-full"
+            />
+            <svg
+              className="absolute top-0 right-0 hidden h-full text-white lg:inline-block"
+              viewBox="0 0 20 104"
+              fill="currentColor"
             >
-              Learn More
-              <svg
-                className="inline-block w-3 ml-2"
-                fill="currentColor"
-                viewBox="0 0 12 12"
+              <polygon points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104" />
+            </svg>
+          </div>
+          <div className="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
+            <div>
+              <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-orange-700 uppercase rounded-full bg-teal-accent-400">
+                FOR A BETTER TOMORROW, TODAY
+              </p>
+            </div>
+            <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl text-blue-950">
+              Sustainable Solutions for Greener Facility Management
+            </h5>
+            <p className="mb-5 text-gray-800">
+              At IME, <span className="font-bold">Sustainability</span> is paramount. We integrate eco-friendly practices into every operation, from innovative strategies to cutting-edge tech. Our solutions, like energy efficiency and waste management, are tailored to your needs. Partner with us for a greener future in Integrated Infrastructure Asset Management.
+            </p>
+            <div className="flex items-center">
+              <a
+                href="../sustainability"
+                aria-label=""
+                className="inline-flex items-center font-semibold transition-colors duration-200  text-orange-700 hover:text-orange-800"
               >
-                <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
-              </svg>
-            </a>
+                Learn More
+                <svg
+                  className="inline-block w-3 ml-2"
+                  fill="currentColor"
+                  viewBox="0 0 12 12"
+                >
+                  <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
 
 
@@ -318,10 +318,10 @@ const Home = () => {
               partner dedicated to your success.
             </p>
           </div>
-          <div className="flex-none mt-12 text-white lg:mt-0">
+          <div className="flex-none mt-12 text-white lg:mt-0 ">
             <ul className="grid grid-cols-2 gap-2 items-center justify-center [&>*]:bg-gray-200 [&>*]:w-full [&>*]:h-20 [&>*]:flex sm:[&>*]:px-14">
               {/* LOGO 1 */}
-              <li className="p-1">
+              <li className="p-1 grayscale transition-transform transform hover:grayscale-0">
                 <img
                   src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684746153/imeassets/clients/lagoswaterlogo_yagkpf.png"
                   alt="Logo"
@@ -329,7 +329,7 @@ const Home = () => {
               </li>
 
               {/* LOGO 2 */}
-              <li className="p-1">
+              <li className="p-1 grayscale transition-transform transform hover:grayscale-0">
                 <img
                   src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684746687/imeassets/clients/edsiamo_vcmkgr.png"
                   alt="Logo"
@@ -337,7 +337,7 @@ const Home = () => {
               </li>
 
               {/* LOGO 3 */}
-              <li className="p-1">
+              <li className="p-1 grayscale transition-transform transform hover:grayscale-0">
                 <img
                   src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684747026/imeassets/clients/lasiama_mbkfio.png"
                   alt="Logo"
@@ -345,12 +345,38 @@ const Home = () => {
               </li>
 
               {/* LOGO 4 */}
-              <li className="p-1">
+              <li className="p-1 grayscale transition-transform transform hover:grayscale-0">
                 <img
                   src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1684747277/imeassets/clients/lightup_lagos_hwx1w9.png"
                   alt="Logo"
                 />
               </li>
+
+              {/* LOGO 5 */}
+              <li className="p-1 grayscale transition-transform transform hover:grayscale-0">
+                <img
+                  src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1692287624/imeassets/clients/fb_tw_dpdgyb.png"
+                  alt="Logo"
+                />
+              </li>
+
+              {/* LOGO 6 */}
+              <li className="p-1 grayscale transition-transform transform hover:grayscale-0">
+                <img
+                  src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1692287977/imeassets/clients/Screenshot_138_syqmjx.png"
+                  alt="Logo"
+                />
+              </li>
+
+              {/* LOGO 7 */}
+              <li className="p-1 grayscale transition-transform transform hover:grayscale-0">
+                <img
+                  src="https://res.cloudinary.com/dz2fc3ioz/image/upload/v1692288133/imeassets/clients/WhatsApp_Image_2023-08-11_at_15.54.52_yawc5w.jpg"
+                  alt="Logo"
+                />
+              </li>
+
+
             </ul>
           </div>
         </div>

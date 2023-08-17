@@ -158,7 +158,7 @@ const Team = () => {
 
             <div className="flex flex-col sm:text-center">
               <p className="text-lg font-bold">Shola Ayewumi</p>
-              <p className="mb-5 text-xs text-gray-800">Chief Financial officer</p>
+              <p className="mb-5 text-xs text-gray-800">Financial Advisor</p>
               <div className="flex items-center space-x-3 sm:justify-center">
                 <a
                   href="https://www.linkedin.com/"
